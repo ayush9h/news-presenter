@@ -17,7 +17,7 @@ function App() {
 
     try {
       const response = await axios.post(
-        "http://localhost:5000/text-to-speech",
+        "https://news-presenter.vercel.app/text-to-speech",
         {
           article_text: newsArticle,
           selected_voice: selectedVoice,
