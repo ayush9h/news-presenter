@@ -17,7 +17,7 @@ function App() {
 
     try {
       const response = await axios.post(
-        "http://localhost:3000/text-to-speech",
+        "https://news-presenter.onrender.com/text-to-speech",
         {
           article_text: newsArticle,
           selected_voice: selectedVoice,
