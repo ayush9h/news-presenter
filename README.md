@@ -1,6 +1,9 @@
 # News-presenter
 
-Read news articles using pyttsx3 and gTTS.
+# Update
+- server stopped. 
+
+Read news articles using pyttsx3 and gTTS. 
 
 # Features
 - Custom Voice and voice speed
